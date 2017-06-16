@@ -1,0 +1,8 @@
+This used the justwatch elasticsearch exporter.
+
+The existing dockerfile did not contain the latest arguments that the master branch had.
+
+Also when trying to run the master branch we ran into panics so a custom build with `exporter.go` 
+lines 471 and 472 comment out.
+
+
